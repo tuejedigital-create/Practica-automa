@@ -11,7 +11,7 @@ bot.onText(/\/start/, (msg) => {
   const nombre = msg.from.first_name;
   bot.sendMessage(
     msg.chat.id,
-    `👋 ¡Hola, ${Grace}! Soy tu bot de práctica.\n\n` +
+    `👋 ¡Hola, ${nombre}! Soy tu bot de práctica.\n\n` +
     `Estos son mis comandos:\n` +
     `📌 /start - Mensaje de bienvenida\n` +
     `🎲 /dado - Lanza un dado\n` +
